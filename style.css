@@ -12,7 +12,7 @@ main {
 }
 
 img {
-  max-width: fit-content;
+  max-height: 400px;
 }
 
 button {
