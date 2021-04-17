@@ -13,6 +13,11 @@ main {
 
 img {
   max-height: 400px;
+  transition: 0.2s;
+}
+
+.transparent {
+  opacity: 0;
 }
 
 button {
@@ -22,6 +27,7 @@ button {
   font-family: courier;
   padding: 1rem;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 button:focus {
